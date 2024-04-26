@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>My Personal Page</title>
+</head>
+<body>
+    <section class="hero-full-section">
+        <div class="top-bar">
+            <a class="top-links-not-active" href="/index.html">Home</a>
+            <a class="top-links-not-active" href="/about.html">About</a>
+            <a class="top-links" href="/contact.html">Contact</a>
+            <a class="top-links-not-active" href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+        <section class="breadcrumb-img" style="height: 300px; background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/018.jpg');">
+            <div class="breadcrumb-overlay"></div>
+               <nav style="display: flex; z-index: 10;" aria-label="Breadcrumb">
+                    <ol class="breadcrumb-ordered">
+                    <li style="display: inline-flex; align-items: center;">
+                        <a href="/index.html" class="breadcrumb-link">
+                        <svg class="breadcrumb-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"/>
+                        </svg>
+                        Home
+                        </a>
+                    </li>
+                    <li>
+                        <div style="display: flex; align-items: center;">
+                        <svg class="breadcrumb-icon2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                        </svg>
+                        <a href="/contact.html" class="breadcrumb-link">Contact</a>
+                        </div>
+                    </li>
+                    </ol>
+                </nav>
+        </section>
+        <section class="">
+            <div class="contact-container">
+                <h2 class="contact-header">Contact Us</h2>
+                <p class="contact-paragraph">Got a technical issue? Want to send feedback about a beta feature? Need details about our Bookings? Let us know.</p>
+                <form action="#" class="contact-form">
+                    <div>
+                        <label for="email" class="contact-label">Your email</label>
+                        <input type="email" id="email" class="contact-input" placeholder="voyager@wanderlust.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="contact-label">Subject</label>
+                        <input type="text" id="subject" class="contact-input" placeholder="Let us know how we can help you" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="contact-label">Your message</label>
+                        <textarea id="message" rows="6" class="contact-input" placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button type="submit" class="contact-button">Send message</button>
+                </form>
+            </div>
+          </section>
+    </section>
+    <footer class="footer-container">
+        <div class="footer-content">
+        <span class="footer-info">© 2024 <a href="#" class="">Wanderlust Voyager™</a>. All Rights Reserved.
+        </span>
+        <ul class="footer-links-container">
+            <li>
+                <a href="/about.html" class="footer-links">About</a>
+            </li>
+            <li>
+                <a href="/privacy-policy.html" class="footer-links">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="/contact.html" class="">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

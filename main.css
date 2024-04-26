@@ -1,0 +1,508 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    color: #2d2f31ec;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.hero-full-section{
+    background-color: #9a3fea09;
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+}
+.top-bar{
+    width: 80%;
+    padding: 10px;
+    border-radius: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    background-color: #171717;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    row-gap: 20px;
+}
+.top-links{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #9B3FEA;
+    border-radius: 35px;
+}
+.top-links-not-active{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 35px;
+}
+.hero-section{
+    display: grid;
+    max-width: 1280px;
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+    padding-top: 2rem; 
+    padding-bottom: 2rem; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-content{
+    margin-right: auto;
+    place-self: center;      
+}
+.hero-header{
+    margin-bottom: 1rem;
+    max-width: 42rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+.hero-paragraph{
+    margin-bottom: 1.5rem;
+    max-width: 42rem;
+    font-weight: 300;
+}
+.hero-first-button{
+    margin-right: 0.75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    background-color: #9B3FEA;
+    color: #fff;
+}
+.but-icon{
+    margin-right: -0.25rem;
+    margin-left: 0.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.hero-second-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    border-color: #999;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.hero-img{
+    display: none;
+}
+.intro-section{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.intro-header{
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+.intro-paragraph{
+    margin-bottom: 1.5rem;
+    font-weight: 300;
+}  
+.intro-button{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #9B3FEA;
+}
+.intro-but-icon{
+    margin-right: -0.25rem;
+    margin-left: 0.5rem;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.details-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.details-text{
+    margin-bottom: 2rem;
+    max-width: 768px;
+}
+.details-text-header{
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+.details-grid-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
+.details-icon-bg{
+    margin-bottom: 1rem;
+    display: flex;
+    height: 2.5rem;
+    width: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: #9B3FEA;
+}
+.details-icon{
+    height: 1.25rem;
+    width: 1.25rem;
+    color: #fff;
+}
+.details-header{
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.footer-container{
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
+}
+.footer-content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1280px;
+    padding: 1rem;
+}
+.footer-info{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.footer-links-container{
+    margin-top: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+.footer-links{
+    margin-inline-end: 1rem;
+}
+.about-content {
+    line-height: 1.6; /* Adjust as needed */
+    padding: 40px;
+}
+
+.about-content p {
+    margin-bottom: 1.5rem; /* Adjust as needed */
+}
+.breadcrumb-img{
+    position: relative;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.breadcrumb-overlay{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+.breadcrumb-ordered{
+    display: inline-flex;
+    align-items: center;
+}
+.breadcrumb-link{
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+}
+.breadcrumb-icon{
+    margin-inline-end: 0.5rem;
+    margin-inline-end: 0.625rem;
+    height: 0.75rem;
+    width: 0.75rem;
+}
+.breadcrumb-icon2{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    height: 0.75rem;
+    width: 0.75rem;
+    color: #999;
+}
+.about-header{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.025em;
+}
+.about-underline{
+    text-decoration-line: underline;
+    text-decoration-color: #9B3FEA;
+    text-decoration-thickness: 8px; 
+}  
+.contact-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+}
+.contact-header{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+}
+.contact-paragraph{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+.contact-label{
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;      
+}
+.contact-input{
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 0.5rem;
+    padding: 0.625rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;  
+    border-color: #ddd;   
+    border-style: solid; 
+}
+.contact-form > * + * {
+    margin-top: 2rem; 
+}
+.contact-button{
+    border-radius: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: #fff;
+    background-color: #9B3FEA;   
+    border: none;   
+}
+  
+  
+@media (min-width: 1280px) {
+    .intro-section {
+      gap: 4rem;
+    }
+}
+@media (min-width: 1024px) {
+    .hero-section{
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 2rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .hero-content{
+        grid-column: span 7 / span 7;
+    }
+    .hero-header{
+        font-size: 3.75rem;
+        line-height: 1; 
+    }
+    .hero-paragraph{
+        margin-bottom: 2rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    .hero-img{
+        grid-column: span 5 / span 5;
+        margin-top: 0px;
+        display: flex;
+    }
+    .hero-img img{
+        max-width: 100%;
+        height: auto;
+    }
+    .intro-section{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .details-container{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .details-text{
+        margin-bottom: 4rem;
+    }
+    .details-grid-container{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .details-icon-bg{
+        height: 3rem;
+        width: 3rem;
+    }
+    .details-icon{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .about-header{
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+    .contact-container{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .contact-paragraph{
+        margin-bottom: 4rem;
+    }
+}
+@media (min-width: 768px) {
+    .hero-header {
+        font-size: 3rem;
+        line-height: 1; 
+    }
+    .hero-paragraph{
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+    .intro-section{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .intro-paragraph{
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+    .details-grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 2rem; 
+    }
+    .footer-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .about-header{
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+@media (min-width: 640px) {
+    .intro-section {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    .details-container{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .details-text-paragraph{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    .footer-info{
+        text-align: center;
+    }
+    .footer-links-container{
+        margin-top: 0px;
+    }
+    .footer-links{
+        margin-inline-end: 1.5rem;
+    }
+    .contact-paragraph{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+    .contact-button{
+        width: fit-content;
+    }
+  }
+  
+
+
+  
+
+  
+
+
+  
+  
