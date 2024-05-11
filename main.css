@@ -68,7 +68,7 @@ ul{
     font-size: 2.25rem;
     line-height: 2.5rem;
     font-weight: 800;
-    line-height: 1;
+    line-height: 1.5;
     letter-spacing: -0.025em;
 }
 .hero-paragraph{
@@ -139,6 +139,8 @@ ul{
 .intro-paragraph{
     margin-bottom: 1.5rem;
     font-weight: 300;
+    line-height: 2;
+    list-style: disc ;
 }  
 .intro-button{
     display: inline-flex;
@@ -365,6 +367,76 @@ ul{
     background-color: #9B3FEA;   
     border: none;   
 }
+.experience-full-section{
+    background-color: rgb(255 255 255);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.experience-section{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.experience-heading-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 48rem;
+    text-align: center;
+}
+.experience-heading{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+    color: rgb(17 24 39)
+}
+.experience-full-container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    display: flow-root;
+    max-width: 48rem;
+} 
+.experience-container{
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    --y-reverse: 0;
+    border-top-width: calc(1px * calc(1 - var(--y-reverse)));
+    border-bottom-width: calc(1px * var(--y-reverse));
+    border-color: rgb(229 231 235)
+} 
+.experience-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.experience-light-text{
+    flex-shrink: 0;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: rgb(107 114 128)
+}
+.experience-bold-text{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: rgb(17 24 39)
+}
+.experience-bold-text a{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    color: rgb(17 24 39)
+}
   
   
 @media (min-width: 1280px) {
@@ -373,6 +445,15 @@ ul{
     }
 }
 @media (min-width: 1024px) {
+    .experience-full-container{
+        margin-top: 4rem;
+    }
+    .experience-section{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
     .hero-section{
         grid-template-columns: repeat(12, minmax(0, 1fr));
         gap: 2rem;
@@ -384,7 +465,7 @@ ul{
     }
     .hero-header{
         font-size: 3.75rem;
-        line-height: 1; 
+        line-height: 1.5; 
     }
     .hero-paragraph{
         margin-bottom: 2rem;
@@ -437,7 +518,7 @@ ul{
 @media (min-width: 768px) {
     .hero-header {
         font-size: 3rem;
-        line-height: 1; 
+        line-height: 1.5; 
     }
     .hero-paragraph{
         font-size: 1.125rem;
@@ -449,7 +530,7 @@ ul{
     }
     .intro-paragraph{
         font-size: 1.125rem;
-        line-height: 1.75rem;
+        line-height: 2.5rem;
     }
     .details-grid-container{
         display: grid;
@@ -494,6 +575,21 @@ ul{
     }
     .contact-button{
         width: fit-content;
+    }
+    .experience-section{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    .experience-full-container{
+        margin-top: 3rem;
+    }
+    .experience-single{
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .experience-light-text{
+        text-align: right;
     }
   }
   
